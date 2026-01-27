@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40" fill="none">
+  <!-- Logomark - Isometric M -->
+  <g transform="translate(0, 2)">
+    <!-- Left pillar -->
+    <path d="M8 28L8 8L12 6L12 26L8 28Z" fill="#FFFFFF"/>
+    <path d="M12 6L16 8L16 28L12 26L12 6Z" fill="#E5E5E5"/>
+
+    <!-- Right pillar -->
+    <path d="M28 28L28 8L32 6L32 26L28 28Z" fill="#FFFFFF"/>
+    <path d="M32 6L36 8L36 28L32 26L32 6Z" fill="#E5E5E5"/>
+
+    <!-- Center V shape -->
+    <path d="M16 8L22 16L16 14L16 8Z" fill="#FFFFFF"/>
+    <path d="M28 8L22 16L28 14L28 8Z" fill="#E5E5E5"/>
+    <path d="M16 14L22 16L22 20L16 18L16 14Z" fill="#CCCCCC"/>
+    <path d="M28 14L22 16L22 20L28 18L28 14Z" fill="#BBBBBB"/>
+
+    <!-- Top connectors -->
+    <path d="M12 6L16 4L22 8L16 8L12 6Z" fill="#FFFFFF"/>
+    <path d="M32 6L28 4L22 8L28 8L32 6Z" fill="#E5E5E5"/>
+    <path d="M16 4L22 2L28 4L22 8L16 4Z" fill="#F5F5F5"/>
+  </g>
+
+  <!-- Logotype - MABDEV -->
+  <text x="50" y="28" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="600" fill="#FFFFFF" letter-spacing="0.05em">MABDEV</text>
+</svg>

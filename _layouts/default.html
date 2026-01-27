@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'en' }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ site.description }}">
+  <meta name="author" content="{{ site.author.name }}">
+
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}">
+
+  <!-- SEO -->
+  {% seo %}
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="{{ page.title | default: site.title }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ '/assets/images/og-image.png' | absolute_url }}">
+
+  <!-- Alternate language -->
+  {% assign t = site.data[page.lang] %}
+  <link rel="alternate" hreflang="{{ t.other_lang }}" href="{{ t.other_lang_url | absolute_url }}">
+  <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url | absolute_url }}">
+</head>
+<body>
+  {% assign t = site.data[page.lang] %}
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav__container">
+      <a href="{% if page.lang == 'pt' %}/pt/{% else %}/{% endif %}" class="nav__logo">
+        <img src="{{ '/assets/images/logo.svg' | relative_url }}" alt="Mabdev" class="nav__logo-img">
+      </a>
+
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li><a href="#services" class="nav__link">{{ t.nav.services }}</a></li>
+          <li><a href="#tech" class="nav__link">{{ t.nav.tech }}</a></li>
+          <li><a href="#portfolio" class="nav__link">{{ t.nav.portfolio }}</a></li>
+          <li><a href="#about" class="nav__link">{{ t.nav.about }}</a></li>
+          <li><a href="#contact" class="nav__link nav__link--cta">{{ t.nav.contact }}</a></li>
+        </ul>
+
+        <a href="{{ t.other_lang_url }}" class="nav__lang" title="{{ t.other_lang_name }}">
+          {{ t.other_lang_name }}
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    {{ content }}
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div class="footer__brand">
+          <img src="{{ '/assets/images/logo.svg' | relative_url }}" alt="Mabdev" class="footer__logo">
+          <p class="footer__tagline">{{ t.footer.tagline }}</p>
+        </div>
+        <div class="footer__address">
+          <p>Rua Braga 202, torre 4 ap 91 - CEP 09725160</p>
+          <p>São Bernardo do Campo - SP - Brazil</p>
+        </div>
+        <div class="footer__copyright">
+          <p>&copy; {{ 'now' | date: "%Y" }} {{ t.footer.copyright }}. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>

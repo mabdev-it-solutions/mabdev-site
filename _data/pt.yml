@@ -1,0 +1,174 @@
+# Portuguese Translations
+lang: pt
+lang_name: Português
+other_lang: en
+other_lang_name: English
+other_lang_url: /
+
+# Navigation
+nav:
+  services: Serviços
+  tech: Tecnologias
+  portfolio: Portfólio
+  about: Sobre
+  contact: Contato
+
+# Hero Section
+hero:
+  tagline: "Seu Parceiro em Sucesso de Software"
+  headline: "Vamos Construir Algo Incrível Juntos"
+  description: "Oi, eu sou o Vinicius! Há mais de 15 anos, tenho ajudado empresas como a sua a transformar ideias em soluções de software poderosas. Quando você trabalha comigo, você tem um parceiro dedicado que realmente se importa com o seu sucesso—não uma agência impessoal ou uma porta giratória de desenvolvedores. Vamos conversar sobre o que você está construindo."
+  cta_primary: "Iniciar uma Conversa"
+  cta_secondary: "Ver Meu Trabalho"
+
+# Services Section
+services:
+  title: "Como Posso Ajudar"
+  subtitle: "Seja qual for o desafio de software que você enfrenta, provavelmente já resolvi antes. Aqui está o que faço de melhor."
+  items:
+    - title: "Soluções de IA"
+      description: "Vamos colocar a IA para trabalhar pelo seu negócio. Vou ajudá-lo a encontrar formas práticas de automatizar tarefas, obter insights e dar superpoderes à sua equipe—sem jargões, apenas resultados reais."
+      icon: "brain"
+    - title: "Desenvolvimento de Software"
+      description: "Precisa de algo bem construído? Eu crio soluções .NET robustas projetadas para crescer com você. Código limpo, arquitetura sólida e software que simplesmente funciona—ano após ano."
+      icon: "code"
+    - title: "Integrações de Sistemas"
+      description: "Cansado de copiar dados entre sistemas? Vamos conectar suas ferramentas para que conversem entre si. ERPs, CRMs, gateways de pagamento—vou fazê-los funcionar como um só."
+      icon: "link"
+    - title: "Desenvolvimento E-commerce"
+      description: "Já ajudei lojas online a atender milhares de clientes diariamente. Seja uma solução personalizada ou expertise em nopCommerce, eu sei o que impulsiona vendas."
+      icon: "cart"
+    - title: "Gestão de Armazém"
+      description: "Caos no estoque? Eu construo soluções WMS que trazem clareza para suas operações—rastreamento em tempo real, separação otimizada e menos dores de cabeça."
+      icon: "warehouse"
+
+# Tech Stack Section
+tech:
+  title: "Tecnologias"
+  subtitle: "Tecnologias que uso diariamente"
+  categories:
+    - name: "Backend"
+      items:
+        - name: ".NET / C#"
+          level: "Expert"
+        - name: "ASP.NET Core"
+          level: "Expert"
+        - name: "Entity Framework"
+          level: "Expert"
+        - name: "Minimal APIs"
+          level: "Expert"
+    - name: "Frontend"
+      items:
+        - name: "Vue.js"
+          level: "Avançado"
+        - name: "React"
+          level: "Avançado"
+        - name: "Blazor"
+          level: "Avançado"
+        - name: "Static Pages"
+          level: "Avançado"
+    - name: "Arquitetura"
+      items:
+        - name: "Domain Driven Design"
+          level: "Avançado"
+        - name: "CQRS"
+          level: "Avançado"
+        - name: "Modular Monoliths"
+          level: "Avançado"
+        - name: "Microservices"
+          level: "Avançado"
+    - name: "Plataformas"
+      items:
+        - name: "nopCommerce"
+          level: "Expert"
+        - name: "React Native"
+          level: "Avançado"
+        - name: ".NET MAUI"
+          level: "Avançado"
+        - name: "Avalonia UI"
+          level: "Avançado"
+
+# Portfolio Section
+portfolio:
+  title: "Projetos em Destaque"
+  subtitle: "Projetos reais, resultados reais"
+  projects:
+    - title: "Checkomatic"
+      category: "E-commerce"
+      description: "Plataforma e-commerce de alto tráfego atendendo milhares de clientes diários. Páginas de produto personalizadas com campos dinâmicos para design de cheques e envelopes."
+      tech: ["nopCommerce", "Vue.js", "Checkout Personalizado"]
+      url: "https://checkomatic.com"
+      highlights:
+        - "Milhares de clientes diários"
+        - "Personalização dinâmica de produtos"
+        - "Fluxo de checkout customizado"
+    - title: "KCH Warehouse"
+      category: "Gestão de Armazém"
+      description: "Sistema completo de gestão de armazém controlando estoque, separação de pedidos e todas as operações. Abordagem mobile-first com React Native para dispositivos Android."
+      tech: [".NET Core", "React Native", "SQL Server"]
+      url: "https://kchcorp.com"
+      highlights:
+        - "Gestão completa de estoque"
+        - "App mobile para separação"
+        - "Performance ultrarrápida"
+    - title: "American Locksets"
+      category: "E-commerce"
+      description: "Migração completa de e-commerce de plataforma legada. Melhorias em SEO e performance de vendas com uma loja moderna e otimizada."
+      tech: ["nopCommerce", "Otimização SEO", "Migração"]
+      url: "https://www.americanlocksets.com"
+      highlights:
+        - "Migração completa de plataforma"
+        - "Rankings SEO melhorados"
+        - "Performance de vendas aprimorada"
+    - title: "Security Parts"
+      category: "E-commerce"
+      description: "Plataforma e-commerce especializada em peças de reposição para fechaduras comerciais e dispositivos de segurança. Construí relacionamentos complexos de produtos e navegação intuitiva para ajudar clientes a identificar componentes exatos."
+      tech: ["nopCommerce", "C#", "Vue.js"]
+      url: "https://www.securityparts.com"
+      highlights:
+        - "Relacionamentos complexos de produtos"
+        - "Navegação dinâmica de produtos"
+        - "Diagramas interativos de peças"
+  cta: "Além de ampla experiência com integrações de sistemas e desenvolvimento de plugins nopCommerce personalizados."
+
+# About Section
+about:
+  title: "Sobre Mim"
+  subtitle: "A pessoa por trás do código"
+  bio: |
+    E aí! Eu sou o Vinicius, e eu realmente amo o que faço. Por mais de 15 anos, tenho resolvido quebra-cabeças de software—de plataformas e-commerce que processam milhares de pedidos diários a sistemas de armazém que mantêm operações funcionando perfeitamente.
+
+    Mas o que realmente me motiva é ver meus clientes terem sucesso. Não há nada melhor do que ouvir "isso mudou tudo pra gente." É por isso que dedico tempo para realmente entender seu negócio antes de escrever uma única linha de código.
+
+    Também estou empolgado com IA e como ela pode ajudar empresas a trabalhar de forma mais inteligente. Se você tem curiosidade sobre o que é possível, adoraria explorar isso com você. E sim—aceito Bitcoin com descontos especiais, porque acredito no futuro das finanças descentralizadas!
+  values:
+    - title: "Artesanato"
+      description: "Tenho orgulho do meu trabalho. Cada projeto recebe minha atenção total e a qualidade que merece—sem atalhos."
+    - title: "Seu Sucesso = Meu Sucesso"
+      description: "Não fico satisfeito até você ficar satisfeito. Suas vitórias são minhas vitórias, e vou além para fazê-las acontecer."
+  stats:
+    - value: "15+"
+      label: "Anos de Experiência"
+    - value: "15+"
+      label: "Projetos Entregues"
+    - value: "100%"
+      label: "Acesso Direto"
+
+# Contact Section
+contact:
+  title: "Vamos Trabalhar Juntos"
+  subtitle: "Tem um projeto em mente? Vamos conversar sobre como posso ajudar. Pague com Bitcoin e ganhe descontos exclusivos!"
+  form:
+    name: "Seu Nome"
+    email: "Seu Email"
+    message: "Conte-me sobre seu projeto"
+    submit: "Enviar Mensagem"
+  info:
+    email: "vinicius.mabdev@gmail.com"
+    response: "Geralmente respondo em até 24 horas."
+    bitcoin: "Bitcoin aceito como principal forma de pagamento com descontos disponíveis."
+
+# Footer
+footer:
+  copyright: "Mabdev IT Solutions"
+  tagline: "Expertise Sênior. Entregue."

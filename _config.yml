@@ -1,0 +1,42 @@
+# Site Settings
+title: Mabdev IT Solutions
+description: Senior Expertise. Delivered. Custom software development, AI solutions, and e-commerce expertise with 15+ years of experience.
+url: "https://mabdev.com"
+baseurl: ""
+
+# Author
+author:
+  name: Vinicius Perez Mabellini
+  email: vinicius.mabdev@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - .gitignore
+  - README.md
+  - brand
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      lang: "en"
+  - scope:
+      path: "pt"
+    values:
+      lang: "pt"
+
+# Plugins (GitHub Pages supported)
+plugins:
+  - jekyll-seo-tag

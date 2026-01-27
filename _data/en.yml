@@ -1,0 +1,174 @@
+# English Translations
+lang: en
+lang_name: English
+other_lang: pt
+other_lang_name: Português
+other_lang_url: /pt/
+
+# Navigation
+nav:
+  services: Services
+  tech: Tech Stack
+  portfolio: Portfolio
+  about: About
+  contact: Contact
+
+# Hero Section
+hero:
+  tagline: "Your Partner in Software Success"
+  headline: "Let's Build Something Great Together"
+  description: "Hi, I'm Vinicius! For over 15 years, I've been helping businesses like yours turn ideas into powerful software solutions. When you work with me, you get a dedicated partner who truly cares about your success—not a faceless agency or a revolving door of developers. Let's chat about what you're building."
+  cta_primary: "Start a Conversation"
+  cta_secondary: "See My Work"
+
+# Services Section
+services:
+  title: "How I Can Help"
+  subtitle: "Whatever software challenge you're facing, I've probably solved it before. Here's what I do best."
+  items:
+    - title: "AI Solutions"
+      description: "Let's put AI to work for your business. I'll help you find practical ways to automate tasks, gain insights, and give your team superpowers—no buzzwords, just real results."
+      icon: "brain"
+    - title: "Custom Software Development"
+      description: "Need something built right? I craft robust .NET solutions designed to grow with you. Clean code, solid architecture, and software that just works—year after year."
+      icon: "code"
+    - title: "System Integrations"
+      description: "Tired of copying data between systems? Let's connect your tools so they talk to each other. ERPs, CRMs, payment gateways—I'll make them work as one."
+      icon: "link"
+    - title: "E-commerce Development"
+      description: "I've helped online stores serve thousands of customers daily. Whether you need a custom build or nopCommerce expertise, I know what drives sales."
+      icon: "cart"
+    - title: "Warehouse Management"
+      description: "Inventory chaos? I build WMS solutions that bring clarity to your operations—real-time tracking, optimized picking, and fewer headaches."
+      icon: "warehouse"
+
+# Tech Stack Section
+tech:
+  title: "Tech Stack"
+  subtitle: "Technologies I work with daily"
+  categories:
+    - name: "Backend"
+      items:
+        - name: ".NET / C#"
+          level: "Expert"
+        - name: "ASP.NET Core"
+          level: "Expert"
+        - name: "Entity Framework"
+          level: "Expert"
+        - name: "Minimal APIs"
+          level: "Expert"
+    - name: "Frontend"
+      items:
+        - name: "Vue.js"
+          level: "Advanced"
+        - name: "React"
+          level: "Advanced"
+        - name: "Blazor"
+          level: "Advanced"
+        - name: "Static Pages"
+          level: "Advanced"
+    - name: "Architecture"
+      items:
+        - name: "Domain Driven Design"
+          level: "Advanced"
+        - name: "CQRS"
+          level: "Advanced"
+        - name: "Modular Monoliths"
+          level: "Advanced"
+        - name: "Microservices"
+          level: "Advanced"
+    - name: "Platforms"
+      items:
+        - name: "nopCommerce"
+          level: "Expert"
+        - name: "React Native"
+          level: "Advanced"
+        - name: ".NET MAUI"
+          level: "Advanced"
+        - name: "Avalonia UI"
+          level: "Advanced"
+
+# Portfolio Section
+portfolio:
+  title: "Featured Work"
+  subtitle: "Real projects, real results"
+  projects:
+    - title: "Checkomatic"
+      category: "E-commerce"
+      description: "High-traffic e-commerce platform serving thousands of daily customers. Built custom product pages with dynamic fields for designing checks and envelopes."
+      tech: ["nopCommerce", "Vue.js", "Custom Checkout"]
+      url: "https://checkomatic.com"
+      highlights:
+        - "Thousands of daily customers"
+        - "Dynamic product customization"
+        - "Custom checkout flow"
+    - title: "KCH Warehouse"
+      category: "Warehouse Management"
+      description: "Complete warehouse management system handling inventory, order picking, and all warehouse operations. Mobile-first approach with React Native for Android devices."
+      tech: [".NET Core", "React Native", "SQL Server"]
+      url: "https://kchcorp.com"
+      highlights:
+        - "Full inventory management"
+        - "Mobile picking app"
+        - "Blazing fast performance"
+    - title: "American Locksets"
+      category: "E-commerce"
+      description: "Full e-commerce migration from legacy platform. Improved SEO rankings and sales performance with a modern, optimized storefront."
+      tech: ["nopCommerce", "SEO Optimization", "Migration"]
+      url: "https://www.americanlocksets.com"
+      highlights:
+        - "Complete platform migration"
+        - "Improved SEO rankings"
+        - "Enhanced sales performance"
+    - title: "Security Parts"
+      category: "E-commerce"
+      description: "Specialized e-commerce platform for commercial door hardware and security device parts. Built complex product relationships and intuitive navigation to help customers identify exact components needed."
+      tech: ["nopCommerce", "C#", "Vue.js"]
+      url: "https://www.securityparts.com"
+      highlights:
+        - "Complex product relationships"
+        - "Dynamic product navigation"
+        - "Interactive part diagrams"
+  cta: "Plus extensive experience with system integrations and custom nopCommerce plugin development."
+
+# About Section
+about:
+  title: "About Me"
+  subtitle: "The person behind the code"
+  bio: |
+    Hey there! I'm Vinicius, and I genuinely love what I do. For over 15 years, I've been solving software puzzles—from e-commerce platforms handling thousands of daily orders to warehouse systems that keep operations running smoothly.
+
+    But here's what really drives me: seeing my clients succeed. There's nothing better than hearing "this changed everything for us." That's why I take the time to truly understand your business before writing a single line of code.
+
+    I'm also excited about AI and how it can help businesses work smarter. If you're curious about what's possible, I'd love to explore that with you. And yes—I accept Bitcoin with special discounts, because I believe in the future of decentralized finance!
+  values:
+    - title: "Craftsmanship"
+      description: "I take pride in my work. Every project gets my full attention and the quality it deserves—no shortcuts."
+    - title: "Your Success = My Success"
+      description: "I'm not happy until you're happy. Your wins are my wins, and I'll go the extra mile to make them happen."
+  stats:
+    - value: "15+"
+      label: "Years Experience"
+    - value: "15+"
+      label: "Projects Delivered"
+    - value: "100%"
+      label: "Direct Access"
+
+# Contact Section
+contact:
+  title: "Let's Work Together"
+  subtitle: "Have a project in mind? Let's discuss how I can help. Pay with Bitcoin and get exclusive discounts!"
+  form:
+    name: "Your Name"
+    email: "Your Email"
+    message: "Tell me about your project"
+    submit: "Send Message"
+  info:
+    email: "vinicius.mabdev@gmail.com"
+    response: "I typically respond within 24 hours."
+    bitcoin: "Bitcoin accepted as main payment method with discounts available."
+
+# Footer
+footer:
+  copyright: "Mabdev IT Solutions"
+  tagline: "Senior Expertise. Delivered."
